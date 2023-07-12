@@ -9,7 +9,7 @@ ARG DEBUG=false
       #org.label-schema.vcs-ref=${VCS_REF} org.label-schema.vcs-url="https://github.com/madharjan/docker-nginx"
 
 ENV NGINX_VERSION ${NGINX_VERSION}
-
+#-----
 RUN mkdir -p /build
 COPY . /build
 
